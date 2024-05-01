@@ -38,16 +38,3 @@ def demo_func_args(sleep_time):
 
 demo_func_args(3)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
