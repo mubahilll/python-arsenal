@@ -22,7 +22,3 @@ with open('ssh-common-password.txt', 'r') as password_list:
             print("[x] Invalid password!")
         attempts += 1
  
-
-
-
-
