@@ -10,9 +10,6 @@ folder_name = "screenshots"
 if not os.path.exists(folder_name):
     os.mkdir(folder_name)
 
-# Get a list of all students' roll numbers
-# roll_numbers = [123456, 789101, 234567, 890123]
-
 # Download the screenshots for each student
 for roll_number in range(596167, 596215):
     url_with_roll_number = url + str(roll_number)
@@ -23,3 +20,6 @@ for roll_number in range(596167, 596215):
     driver.close()
 
 print("All screenshots have been taken.")
+
+
+#created for my mom <3. 
