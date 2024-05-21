@@ -56,7 +56,7 @@ This repository contains a collection of Python scripts for various security-rel
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mubahilll/security-tools.git
+   git clone https://github.com/mubahilll/python-arsenal.git
    ```
 2. Navigate to the repository directory:
    ```bash
